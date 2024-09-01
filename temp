@@ -1,0 +1,13 @@
+#program for temparature conversion
+print"**********************************************************"
+print"PROGRAM FOR TEMPARATURE CONVERSION"
+print"**********************************************************"
+t=int(input("Enter 1 for celsius to fahrenheit:\nEnter 2 for fahrenheit to celsius:"))
+if(t==1):
+        c=int(input("Enter the temp in celsius:"))
+        f=(9/5)*c+32
+        print"The temparature in fahrenheit:",f
+else:
+        f=int(input("Enter the temparature in fahrenheit:"))
+        c=(5/9)*f-32
+        print"The temparature in celsius:",c
